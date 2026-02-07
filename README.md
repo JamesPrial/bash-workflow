@@ -30,15 +30,14 @@ Claude Code plugin providing bash development workflow with TDD, parallel agent 
 
 ## Usage
 
-### /implement Command
-
-Orchestrates the full development workflow:
+The `implement` skill activates automatically when Claude detects you need to build or implement bash scripts with testing. Just describe what you need:
 
 ```
-/implement Create a backup script with rotation and compression
+I need a backup script with rotation and compression
 ```
 
-Workflow waves:
+### Workflow Waves
+
 1. **Wave 1a**: Explore codebase dependencies
 2. **Wave 1b**: 4 parallel planners (Implementation, Testing, Security, DevOps)
 3. **Wave 2**: Parallel script-architect + tdd-architect pairs

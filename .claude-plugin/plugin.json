@@ -1,6 +1,6 @@
 {
   "name": "bash-workflow",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Bash development workflow with TDD, parallel agents, and DevOps review gates",
   "author": {
     "name": "James Prial"
